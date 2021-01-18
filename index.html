@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fonts/material-icons_coders/css/material-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./docs/css/slick.css">
+    <link rel="stylesheet" href="./docs/css/normalize.css">
+    <link rel="stylesheet" href="./docs/css/grid.css">
+    <link rel="stylesheet" href="./docs/css/style.css">
+    <title>Colorful Flat</title>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <div class="header__fullscreen-video-wrap">
+            <video class="header__video" poster="./video/video-bg.jpg" playsinline autoplay muted loop>
+                <source src="./video/video-bg.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="header__navigation">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-between">
+                        <div class="logotype">
+                            <a class="logotype__link" href="#"><img class="logotype__img" src="./images/logotype.png"
+                                    alt="logotype"></a>
+                        </div>
+                        <div class="overlay">
+                            <nav class="nav">
+                                <div class="nav__list nav__list--menu" role="menu">
+                                    <a class="nav__link" href="#home">Home</a>
+                                    <button class="nav__link nav__link--active">
+                                        About<span class="icon-arrow fas fa-chevron-down"></span>
+                                    </button>
+                                    <div class="dropdown-menu d-flex flex-column">
+                                        <div class="dropdown-menu__inner " id="menu">
+                                            <a class="dropdown-menu__link" href="#features">Features</a>
+                                            <a class="dropdown-menu__link" href="#advantages">Advantages</a>
+                                            <a class="dropdown-menu__link" href="#testimonials">Testimonials</a>
+                                        </div>
+                                    </div>
+                                    <a class="nav__link nav__link--team" href="#our-team">Our Team</a>
+                                    <a class="nav__link" href="#faq">FAQ</a>
+                                    <a class="nav__link" href="#blog">Blog</a>
+                                    <a class="nav__link" href="#partners">Partners</a>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="navBurger" role="navigation" id="navToggle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="header__title">The best open page template for</h1>
+                        <h2 class="header__subtitle">Web Professionals</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="#" method="GET" class="form">
+                        <div class="form__inner">
+                            <div class="form__input-wrap">
+                                <div class="form__wrap">
+                                    <input class="form__input-name" type="text" name="name" placeholder="Full name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form__input-wrapr">
+                                <div class="form__wrap">
+                                    <input class="form__input-email" type="email" name="email" placeholder="E-mail"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form__input-wrap">
+                                <div class="form__wrap">
+                                    <input class="form__input-phone" type="tel" name="phone" placeholder="Phone"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form__btn-wrap">
+                                <button class="form__btn">Get Started Now!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="scroll">
+        <div class="scroll__icon">
+            <a class="scroll__link" href="#home"><i class="icon-scroll material-icons-arrow_drop_up"></i></a>
+        </div>
+    </div>
+
+    <main class="main">
+        <section>
+            <div class="about main__about" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3 class="about__title">About Us</h3>
+                            <h4 class="about__subtitle">Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et
+                                facilisis
+                                definiebas est, nec et autem impetus<br class="about__br"> oportere, vim te exerci
+                                noster omnium. Habeo
+                                dicam vim at, sale possit nostrum et pro.</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="about__card d-flex">
+                                <div class="about__icon">
+                                    <a class="about__icon-link" href="javascript:void(0);">
+                                        <i class="icon material-icons-insert_comment"></i>
+                                    </a>
+                                </div>
+                                <div class="about__content">
+                                    <h5 class="about__card-title">Exclusive Shortcodes</h5>
+                                    <p class="about__card-text">Malorum dolores gloriatur pro at, id offendit
+                                        lucilius democritum quo. Ludus ubique fastidii dolores sit et persius
+                                        reformidans.</p>
+                                </div>
+                            </div>
+                            <div class="about__card d-flex">
+                                <div class="about__icon">
+                                    <a class="about__icon-link" href="javascript:void(0);">
+                                        <i class="icon material-icons-autorenew"></i>
+                                    </a>
+                                </div>
+                                <div class="about__content">
+                                    <h5 class="about__card-title">Free Lifetime Updates</h5>
+                                    <p class="about__card-text">Malorum dolores gloriatur pro at, id offendit
+                                        lucilius democritum quo. Ludus ubique fastidii dolores sit et persius
+                                        reformidans.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="about__card d-flex">
+                                <div class="about__icon">
+                                    <a class="about__icon-link" href="javascript:void(0);">
+                                        <i class="icon material-icons-verified_user"></i>
+                                    </a>
+                                </div>
+                                <div class="about__content">
+                                    <h5 class="about__card-title">100% valid and clean code</h5>
+                                    <p class="about__card-text">Malorum dolores gloriatur pro at, id offendit
+                                        lucilius democritum quo. Ludus ubique fastidii dolores sit et persius
+                                        reformidans.</p>
+                                </div>
+                            </div>
+                            <div class="about__card d-flex">
+                                <div class="about__icon">
+                                    <a class="about__icon-link" href="javascript:void(0);">
+                                        <i class="icon material-icons-headset_mic"></i>
+                                    </a>
+                                </div>
+                                <div class="about__content">
+                                    <h5 class="about__card-title">24/7/365 Customer Support</h5>
+                                    <p class="about__card-text">Malorum dolores gloriatur pro at, id offendit
+                                        lucilius democritum quo. Ludus ubique fastidii dolores sit et persius
+                                        reformidans.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="features main__features" id="features">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="features__title">Features</h3>
+                            <h4 class="features__subtitle">Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et
+                                facilisis
+                                definiebas est, nec et autem impetus<br class="features__br"> oportere, vim te exerci
+                                noster omnium. Habeo
+                                dicam vim at, sale possit nostrum et pro.</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="features__card d-flex">
+                                <div class="features__icon">
+                                    <i class="icon-features material-icons-tune"></i>
+                                </div>
+                                <div class="features__content">
+                                    <a href="javascript:void(0);" class="features__card-link">Instant Skins Switcher</a>
+                                    <p class="features__card-text features__card-text--first">Switch styles instantly;
+                                        choose among Material, Flat,
+                                        Minimal, Grunge, Metro, 8-bit or<br class="features__br"> Non-Standard Geometry.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="features__card d-flex">
+                                <div class="features__icon">
+                                    <i class="icon-features material-icons-dvr"></i>
+                                </div>
+                                <div class="features__content">
+                                    <a href="javascript:void(0);" class="features__card-link">Various Scripts
+                                        Included</a>
+                                    <p class="features__card-text features__card-text--second">Various Scripts are
+                                        already on a board. Use
+                                        Owl Carousel, Tabs etc. for your needs</p>
+                                </div>
+                            </div>
+                            <div class="features__card d-flex">
+                                <div class="features__icon">
+                                    <i class="icon-features material-icons-devices"></i>
+                                </div>
+                                <div class="features__content">
+                                    <a href="javascript:void(0);" class="features__card-link">Fully Responsive
+                                        Design</a>
+                                    <p class="features__card-text">Product is tested on the common devices. It will
+                                        render and scale on any possible screen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="features__picture">
+                                <img class="features__img" src="./images/student.png" alt="student">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="advantages main__advantages" id="advantages">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="advantages__title">Advantages</h3>
+                            <h4 class="advantages__subtitle">Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et
+                                facilisis
+                                definiebas est, nec et autem impetus<br class="advantages__br"> oportere, vim te exerci
+                                noster omnium. Habeo
+                                dicam vim at, sale possit nostrum et pro.</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="advantages__card">
+                                <div class="advantages__icon">
+                                    <p class="advantages__icon-text">1.</p>
+                                </div>
+                                <div class="advantages__content">
+                                    <a href="javascript:void(0);" class="advantages__card-link">Cu tantas platonem</a>
+                                    <p class="advantages__card-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Sed et quam est. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="advantages__card">
+                                <div class="advantages__icon">
+                                    <p class="advantages__icon-text">2.</p>
+                                </div>
+                                <div class="advantages__content">
+                                    <a href="javascript:void(0);" class="advantages__card-link">Aperiam suscipiantur</a>
+                                    <p class="advantages__card-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Sed et quam est. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="advantages__card">
+                                <div class="advantages__icon">
+                                    <p class="advantages__icon-text">3.</p>
+                                </div>
+                                <div class="advantages__content">
+                                    <a href="javascript:void(0);" class="advantages__card-link">Nusquam facilisis</a>
+                                    <p class="advantages__card-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Sed et quam est. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="advantages__card">
+                                <div class="advantages__icon">
+                                    <p class="advantages__icon-text">4.</p>
+                                </div>
+                                <div class="advantages__content">
+                                    <a href="javascript:void(0);" class="advantages__card-link">Ex vel legimus</a>
+                                    <p class="advantages__card-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Sed et quam est. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="advantages__card">
+                                <div class="advantages__icon">
+                                    <p class="advantages__icon-text">5.</p>
+                                </div>
+                                <div class="advantages__content">
+                                    <a href="javascript:void(0);" class="advantages__card-link">Nusquam facilisis</a>
+                                    <p class="advantages__card-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Sed et quam est. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="advantages__card">
+                                <div class="advantages__icon">
+                                    <p class="advantages__icon-text">6.</p>
+                                </div>
+                                <div class="advantages__content">
+                                    <a href="javascript:void(0);" class="advantages__card-link">Ex vel legimus</a>
+                                    <p class="advantages__card-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Sed et quam est. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="advantages__card">
+                                <div class="advantages__icon">
+                                    <p class="advantages__icon-text">7.</p>
+                                </div>
+                                <div class="advantages__content">
+                                    <a href="javascript:void(0);" class="advantages__card-link">Aperiam suscipiantur</a>
+                                    <p class="advantages__card-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Sed et quam est. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="advantages__card">
+                                <div class="advantages__icon">
+                                    <p class="advantages__icon-text">8.</p>
+                                </div>
+                                <div class="advantages__content">
+                                    <a href="javascript:void(0);" class="advantages__card-link">Cu tantas platonem</a>
+                                    <p class="advantages__card-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Sed et quam est. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="testimonials main__testimonials" id="testimonials">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="testimonials__title">Testimonials</h3>
+                            <div class="testimonials__icon">
+                                <i class="icon-testimonials material-icons-format_quote"></i>
+                            </div>
+                            <div class="testimonials__slider">
+                                <div class="testimonials__author">
+                                    <p class="testimonials__author-text">Vis quaeque inermis atomorum cu. Aperiam
+                                        suscipiantur at pro. Nec paulo essent<br class="testimonials__br"> hendrerit ut,
+                                        mel cu oblique eripuit
+                                        maiestatis.</p>
+                                    <a class="testimonials__author-link" href="javascript:void(0);"><img
+                                            class="testimonials__author-img" src="./images/author.png" alt="author"></a>
+                                    <p class="testimonials__author-position">Rob Singer, Web Devoloper</p>
+                                </div>
+                                <div class="testimonials__author">
+                                    <p class="testimonials__author-text">Vis quaeque inermis atomorum cu. Aperiam
+                                        suscipiantur at pro. Nec paulo essent<br class="testimonials__br"> hendrerit ut,
+                                        mel cu oblique eripuit
+                                        maiestatis.</p>
+                                    <a class="testimonials__author-link" href="javascript:void(0);"><img
+                                            class="testimonials__author-img" src="./images/author.png" alt="author"></a>
+                                    <p class="testimonials__author-position">Rob Singer, Web Devoloper</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="our-team main__our-team" id="our-team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="our-team__title">Our Team</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="our-team__card">
+                                        <a class="our-team__author-link" href="javascript:void(0);"><img
+                                                class="our-team__img" src="./images/our-team-1.png"
+                                                alt="our-team-1"></a>
+                                        <p class="our-team__author">Alan Sobakovich</p>
+                                        <p class="our-team__position">Founder</p>
+                                        <p class="our-team__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Sed
+                                            et quam est. </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="our-team__card">
+                                        <a class="our-team__author-link" href="javascript:void(0);"><img
+                                                class="our-team__img" src="./images/our-team-2.png"
+                                                alt="our-team-2"></a>
+                                        <p class="our-team__author">John Mu</p>
+                                        <p class="our-team__position">Product Manager</p>
+                                        <p class="our-team__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Sed
+                                            et quam est. </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="our-team__card">
+                                        <a class="our-team__author-link" href="javascript:void(0);"><img
+                                                class="our-team__img" src="./images/our-team-3.png"
+                                                alt="our-team-3"></a>
+                                        <p class="our-team__author">Melissa Jade</p>
+                                        <p class="our-team__position">Designer</p>
+                                        <p class="our-team__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Sed
+                                            et quam est. </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="our-team__card">
+                                        <a class="our-team__author-link" href="javascript:void(0);"><img
+                                                class="our-team__img" src="./images/our-team-4.png"
+                                                alt="our-team-4"></a>
+                                        <p class="our-team__author">Greg Mercury</p>
+                                        <p class="our-team__position">Developer</p>
+                                        <p class="our-team__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Sed
+                                            et quam est. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="faq main__faq parallax-window" id="faq" data-parallax="scroll"
+                data-image-src="./images/faq.jpg">
+                <div class="faq__inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="faq__title">FAQs</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="faq__collapse">
+                                            <a class="faq__collapse-link" href="javascript:void(0);">Tempor incididunt<i
+                                                    class="material-icons-remove_circle"></i></a>
+                                            <div class="faq__collapse-body">
+                                                <p class="faq__collapse-text">Lorem ipsum dolor sit amet conse ctetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq__collapse">
+                                            <a class="faq__collapse-link" href="javascript:void(0);">Eiusmod tempor <i
+                                                    class="material-icons-remove_circle"></i></a>
+                                            <div class="faq__collapse-body">
+                                                <p class="faq__collapse-text">Lorem ipsum dolor sit amet conse ctetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq__collapse">
+                                            <a class="faq__collapse-link" href="javascript:void(0);">Incididunt ut
+                                                labore <i class="material-icons-remove_circle"></i></a>
+                                            <div class="faq__collapse-body">
+                                                <p class="faq__collapse-text">Lorem ipsum dolor sit amet conse ctetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="faq__collapse">
+                                            <a class="faq__collapse-link" href="javascript:void(0);">Esse cillum <i
+                                                    class="material-icons-remove_circle"></i></a>
+                                            <div class="faq__collapse-body">
+                                                <p class="faq__collapse-text">Lorem ipsum dolor sit amet conse ctetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq__collapse">
+                                            <a class="faq__collapse-link" href="javascript:void(0);">Dolore eu fugiat <i
+                                                    class="material-icons-remove_circle"></i></a>
+                                            <div class="faq__collapse-body">
+                                                <p class="faq__collapse-text">Lorem ipsum dolor sit amet conse ctetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq__collapse">
+                                            <a class="faq__collapse-link" href="javascript:void(0);">Bulla pariatu <i
+                                                    class="material-icons-remove_circle"></i></a>
+                                            <div class="faq__collapse-body">
+                                                <p class="faq__collapse-text">Lorem ipsum dolor sit amet conse ctetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="faq__collapse">
+                                            <a class="faq__collapse-link" href="javascript:void(0);">Eiusmod tempor <i
+                                                    class="material-icons-remove_circle"></i></a>
+                                            <div class="faq__collapse-body">
+                                                <p class="faq__collapse-text">Lorem ipsum dolor sit amet conse ctetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq__collapse">
+                                            <a class="faq__collapse-link" href="javascript:void(0);">Incididunt ut
+                                                labore <i class="material-icons-remove_circle"></i></a>
+                                            <div class="faq__collapse-body">
+                                                <p class="faq__collapse-text">Lorem ipsum dolor sit amet conse ctetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq__collapse">
+                                            <a class="faq__collapse-link" href="javascript:void(0);">Esse cillum <i
+                                                    class="material-icons-remove_circle"></i></a>
+                                            <div class="faq__collapse-body">
+                                                <p class="faq__collapse-text">Lorem ipsum dolor sit amet conse ctetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="works main__works">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="works__video">
+                                <iframe class="works__video-frame" src="https://www.youtube.com/embed/YjJJeB4x5go"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 order">
+                            <div class="works__content">
+                                <h3 class="works__title">How Its Work</h3>
+                                <h4 class="works__subtitle">Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et
+                                    facilisis definiebas est.</h4>
+                                <p class="works__text">Malorum dolores gloriatur pro at, id offendit lucilius democritum
+                                    quo. Ludus ubique fastidii dolores sit et persius reformidans. Ei vide movet tibique
+                                    ius, eos vivendo consetetur theophrastus cu. Eum erroribus necessitatibus ne. Eius
+                                    singulis ea his, debitis nonumes at per appareat ponderum eos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="portfolio main__portfolio">
+                <div class="container-fluid container-fluid--portfolio">
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            <div class="portfolio__gallery d-flex">
+                                <a data-fancybox="gallery" data-width="820" data-height="615"
+                                    href="./images/portfolio-1.png" class="portfolio__link"
+                                    href="javascript:void(0);"><img class="portfolio__img"
+                                        src="./images/portfolio-1.png" alt="portfolio-1"></a>
+                                <a data-fancybox="gallery" data-width="820" data-height="615"
+                                    href="./images/portfolio-2.png" class="portfolio__link"
+                                    href="javascript:void(0);"><img class="portfolio__img"
+                                        src="./images/portfolio-2.png" alt="portfolio-2"></a>
+                                <a data-fancybox="gallery" data-width="820" data-height="615"
+                                    href="./images/portfolio-3.png" class="portfolio__link"
+                                    href="javascript:void(0);"><img class="portfolio__img"
+                                        src="./images/portfolio-3.png" alt="portfolio-3"></a>
+                                <a data-fancybox="gallery" data-width="820" data-height="615"
+                                    href="./images/portfolio-4.png" class="portfolio__link"
+                                    href="javascript:void(0);"><img class="portfolio__img"
+                                        src="./images/portfolio-4.png" alt="portfolio-4"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="blog main__blog" id="blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="blog__title">Latest From the Blog</h3>
+                            <h4 class="blog__subtitle">Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et
+                                facilisis definiebas est, nec et autem impetus<br class="blog__br"> oportere, vim te
+                                exerci noster
+                                omnium. Habeo dicam vim at, sale possit nostrum et pro.</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="blog__article">
+                                <a class="blog__link" href="javascript:void(0);"><img class="blog__img"
+                                        src="./images/blog-1.png" alt="blog-1"></a>
+                                <div class="blog__layer">
+                                    <a class="blog__layer-link" href="javascript:void(0);">
+                                        <i class="icon-blog material-icons-launch"></i>
+                                    </a>
+                                    <div class="blog__layer-content">
+                                        <p class="blog__layer-data">2 days ago</p>
+                                        <p class="blog__layer-text">No nam conceptam suscipiantur . . .</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="blog__article">
+                                <a class="blog__link" href="javascript:void(0);"><img class="blog__img"
+                                        src="./images/blog-2.png" alt="blog-2"></a>
+                                <div class="blog__layer">
+                                    <a class="blog__layer-link" href="javascript:void(0);">
+                                        <i class="icon-blog material-icons-launch"></i>
+                                    </a>
+                                    <div class="blog__layer-content">
+                                        <p class="blog__layer-data">2 days ago</p>
+                                        <p class="blog__layer-text">No nam conceptam suscipiantur . . .</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="partners main__partners" id="partners">
+                <div class="container container--partners">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="partners__title">Our partners</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb">
+                            <a class="partners__link" href="#"><img class="partners__img" src="./images/partners-1.png"
+                                    alt="partners-1"></a>
+                        </div>
+                        <div class="col-12 col-md-4 mb order-1">
+                            <a class="partners__link" href="#"><img class="partners__img" src="./images/partners-2.png"
+                                    alt="partners-2"></a>
+                        </div>
+                        <div class="col-12 col-md-4 mb">
+                            <a class="partners__link" href="#"><img class="partners__img" src="./images/partners-3.png"
+                                    alt="partners-3"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="contact main__contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="contact__title">Contact us</h3>
+                            <h4 class="contact__address">8901 Marmora Road, Glasgow, D04 89GR.</h4>
+                            <p class="contact__telephone">Telephone: +1 800 603 6035</p>
+                            <div class="contact__socials">
+                                <a class="contact__socials-link contact__socials-link--first" href="#"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="contact__socials-link" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="contact__socials-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                            <p class="contact__copyright">Colorful Flat &copy; 2015. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <script src="./docs/js/jquery-3.4.1.min.js"></script>
+    <script src="./docs/js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="./docs/js/parallax.js"></script>
+    <script src="./docs/js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDW00wd4VXgnZBcUrO4fmO0oXp0kVHK6g" async defer>
+    </script>
+</body>
+
+</html>
